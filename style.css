@@ -18,8 +18,13 @@ body {
 
 a {
   color: #906;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
 }
 
 article,
@@ -50,8 +55,19 @@ h2 + p {
   box-shadow: 0 1px 0 rgba(0, 0, 0, .12);
   display: flex;
   justify-content: space-between;
-  line-height: 44px;
+  height: 44px;
   padding: 0 16px;
+}
+
+.logo {
+  background-image: url(tedhelps-logo-simple.svg);
+  background-size: cover;
+  display: block;
+  height: 18px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 80px;
 }
 
 .hero {
@@ -109,7 +125,15 @@ h2 + p {
   }
 
   .header {
+    align-items: flex-end;
+    height: 96px;
+    padding-bottom: 16px;
+  }
+
+  .logo {
+    background-image: url(tedhelps-logo-full.svg);
     height: 64px;
+    width: 148px;
   }
 
   .hero {
