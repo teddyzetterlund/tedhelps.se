@@ -13,7 +13,7 @@ body {
   color: rgba(0, 0, 0, .87);
   font: 16px/24px BlinkMacSystemFont, -apple-system, “Segoe UI”,
                   Roboto, Helvetica, Arial, sans-serif;
-  margin: 0 0 24px;
+  margin: 0;
 }
 
 a {
@@ -84,6 +84,34 @@ h2 + p {
   padding: 16px 16px 56px;
 }
 
+.footer {
+  background-color: #906;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 32px;
+  padding: 16px;
+}
+
+.footer a {
+  color: #FFF;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+}
+
+.footer-icon {
+  fill: #FFF;
+  height: 28px;
+  margin-right: 8px;
+  margin-bottom: 6px;
+}
+
 .button {
   background-color: #906;
   border-radius: 4px;
@@ -101,7 +129,6 @@ h2 + p {
   body {
     font-size: 20px;
     line-height: 28px;
-    margin-bottom: 48px;
   }
 
   header,
@@ -140,6 +167,10 @@ h2 + p {
     max-width: 100%;
     padding-top: 44px;
     padding-bottom: 88px;
+  }
+
+  .footer {
+    margin-top: 48px;
   }
 
   .button {
